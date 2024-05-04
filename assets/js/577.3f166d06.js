@@ -1,0 +1,1 @@
+(self.webpackChunkidempiere_id_github_io=self.webpackChunkidempiere_id_github_io||[]).push([[577],{549:(e,i,s)=>{"use strict";s.d(i,{A:()=>_});var u=s(8291);const _=u},5741:()=>{}}]);
