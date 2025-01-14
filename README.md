@@ -41,7 +41,7 @@ npm install
 
 Want to edit documents on "idempiere.github.io/docs" and see your changes instantly in the browser? Here's how:
 
-1. Run``npm start``
+1. Run`npm start`
 2. Open the document in your preferred text editor. edit and save it
 
 Now, any edits you make will be auto reflected live in the browser (without you need to do F5)!
@@ -49,13 +49,19 @@ Now, any edits you make will be auto reflected live in the browser (without you 
 ## Online service like Stackblitz
 
 1. To get started, open [StackBlitz](https://stackblitz.com/) and sign in using your GitHub account
-2. Visit **repositories** and select 'idempiere.github.io'
+2. Visit**repositories**and select 'idempiere.github.io'
+
    ![stackblitz-loadGithubRespository](static/readme/stackblitz-loadGithubRespository.png)
+
 3. StackBlitz offers a cloud-based Node.js development environment with a Visual Studio Code interface. This allows you to write and run Node.js without installing anything on your machine (actual it install to browse through [webcontainers](https://blog.stackblitz.com/posts/introducing-webcontainers/))
 4. This feature allows for simultaneous document editing and live preview updates. You can even open the live preview in a separate browser tab
+
    ![](static/readme/stackblitz-editor.png)
+
 5. The tool also allows you to perform Git operations
+
    ![](static/readme/stackblitz-githubAction.png)
+
 
 ## Internationalization and Translation
 
@@ -63,11 +69,11 @@ The purpose of this section is to offer a cheatsheet for adding an new locale an
 
 - Start with the[docusaurus internationalization introduction and 3 sub-pages](https://docusaurus.io/docs/i18n/introduction).
 - Quick notes:
-  - Modify docusaurus.config.js to include your[desired locale](https://saimana.com/list-of-country-locale-code/) (example: locales: ['en', 'fr', 'fa'],)
+  - Modify docusaurus.config.js to include your[desired locale](https://saimana.com/list-of-country-locale-code/) (example: locales: \['en', 'fr', 'fa'\],)
   - Run the command to write the translation details
     - npm run write-translations -- --locale es
   - Assuming you are manually translating your document (not using Crowdin), execute the mkdir/copy statements from here:
   - https://docusaurus.io/docs/i18n/git
   - Start translating...
   - Note: copying over the files to be translated is essentially like forking the documentation. It is recommended that you wait until the English docs are near-complete before copying over the content to minimize syncing efforts for future edits.
-
+  - /
